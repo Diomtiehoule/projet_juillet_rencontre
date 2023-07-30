@@ -1,0 +1,62 @@
+.optionUser a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+.user-profil-photo{
+    width: 100%;
+    height: 60vh;
+    background-color: gray;
+    padding-top: 5%;
+}
+.user-profil-photo .photo-user{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: white;
+    margin: 0 auto;
+}
+.user-profil-photo p{
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.option-profilUser{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+    margin-top: 5%;
+    margin-bottom: 7%;
+    color: white;
+}
+.add-photo , .voir-profil{
+    width: 20%;
+    text-align: center;
+    padding-top: .1px;
+    padding-bottom: .1px;
+    margin-bottom: 2%;
+    font-size: 1.4rem;
+    background-color: brown;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.optionUser ul li{
+    font-size: 1.3rem;
+    cursor: pointer;
+    padding-bottom: 2%;
+}
+.optionUser .delete-account{
+    color: brown;
+}
+.optionUser ul li a:hover{
+    padding-left: 2%;
+    transition: 1s;
+}
+.optionUser .border-option{
+    border: 1px solid rgba(0, 0, 0, 0.26);
+    width: 95%;
+    margin-bottom: 3%;
+}

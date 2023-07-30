@@ -1,0 +1,53 @@
+.body-profile-user p{
+    color: rgb(75, 74, 74);
+}
+.body-profile-user h2 , .body-profile-user h4{
+    font-weight: bold;
+}
+.profile-photo-user{
+    width: auto;
+    height: auto;
+    margin-bottom: 2.5%;
+    /* background-color: blueviolet; */
+}
+.profile-photo-user img{
+    width: 100%;
+    height: 70vh;
+}
+.info-profile-user .info-principale .nom-user{
+    color: black;
+}
+.info-profile-user{
+    background-color: white;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+.info-profile-user .info-principale{
+    margin-left: 5%;
+    padding-top: 1%;
+    font-size: 1.3rem;
+    margin-bottom: 10%;
+}
+.info-profile-user h2{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.information-secondaire .infos{
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;*/
+    font-size: 1.3rem;
+    margin-left: 5%;
+
+}
+.description-user{
+    margin-left: 5%;
+    font-size: 1.3rem;
+}
+
+.correspondance_user{
+    font-size: 1.3rem;
+    margin-left: 5%;
+}

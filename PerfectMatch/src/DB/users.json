@@ -1,0 +1,343 @@
+
+    {
+        "utilisateurs" : [
+            {
+                "infos" : [
+                
+                {
+
+                    "info-principale" : {
+                        "id" : "U1",
+                        "nom" : "Patrick",
+                        "age" : "23",
+                        "sexe" : "Homme",
+                        "statut" : "Célibataire",
+                        "genre" : "Femme",
+                        "ageMin" : "25",
+                        "ageMax" : "33"
+
+                    },
+                    "info-secondaire" : {
+                        "profession" : "Professeur",
+                        "residence" : {
+                            "quartier": "cocody",
+                            "ville" : "Abidjan",
+                            "pays" : "Côte d'ivoire"
+                        },
+                        "loisir" : "lecture , musique classique",
+                        "type_personne" : "Dévouée , très patiente et travailleur"
+                    },
+                    "description" : "Je suis  une personne très croyante avec un grand sens de la famille qui aime les enfants",
+                    "correspondance" : {
+                        "sexe" : "Femme",
+                        "age" : {
+                            "min" : "25",
+                            "max" : "33"
+                        },
+                        "statut" : "Célibataire",
+                        "residence" : "Côte d'ivoire"
+                    }
+                },
+                {
+                    "info-principale" : {
+                        "id" : "U2",
+                        "nom" : "Laura",
+                        "age" : "19",
+                        "sexe" : "Femme",
+                        "statut" : "Célibataire",
+                        "genre" : "Homme",
+                        "ageMin" : "25",
+                        "ageMax" : "40"
+    
+                    },
+                    "info-secondaire" : {
+                        "profession" : "Etudiante",
+                        "residence" : {
+                            "quartier": "cocody",
+                            "ville": "Abidjan",
+                            "pays":"Côte d'ivoire"
+                        },
+                        "loisir" : "Shopping , dance et musique",
+                        "type_personne" : "Timide , impatience et drôle"
+                    },
+                    "description" : "je suis une fille qui a besoin de beaucoup d'affection , très travailleuse et séerieuse quand il s'agit de bosser",
+                    "correspondance" : {
+                        "sexe" : "Homme",
+                        "age" : {
+                            "min":"25",
+                            "max":"40"
+                        },
+                        "statut" : "Célibataire",
+                        "residence" : "Côte d'ivoire"
+                    }
+                },
+                {
+                    "info-principale" : {
+                        "id" : "U3",
+                        "nom" : "Yves",
+                        "age" : "20",
+                        "sexe" : "Homme",
+                        "statut" : "Célibataire",
+                        "genre" : "Femme",
+                        "ageMin" : "18",
+                        "ageMax" : "25"
+    
+                    },
+                    "info-secondaire" : {
+                        "profession" : "Developpeur",
+                        "residence" : {
+                            "quartier":"plateau",
+                            "ville":"Abidjan",
+                            "pays":"Côte d'ivoire"
+                        },
+                        "loisir" : "Code , recherche et musique",
+                        "type_personne" : "sportif , très cultivé"
+                    },
+                    "description" : "Je suis une personne très cool qui profite de la bonne vibes qui l'entoure et toujours entrain de se surpasser quand il s'agit de technologie",
+                    "correspondance" : {
+                        "sexe" : "Femme",
+                        "age" : {
+                            "min":"18",
+                            "max":"25"
+                        },
+                        "statut" : "Célibataire",
+                        "residence" : "Côte d'ivoire"
+                    }
+                },
+                {
+                    "info-principale" : {
+                        "id" : "U4",
+                        "nom" : "Auore",
+                        "age" : "22",
+                        "sexe" : "Femme",
+                        "statut" : "Célibataire",
+                        "genre" : "Homme",
+                        "ageMin" : "20",
+                        "ageMax" : "28"
+    
+                    },
+                    "info-secondaire" : {
+                        "profession" : "Pâtissière",
+                        "residence" : {
+                            "quartier":"koumassi",
+                            "ville":"Abidjan",
+                            "pays":"Côte d'ivoire"
+                        },
+                        "loisir" : "Pâtisserie , cuisine et télé-réalité",
+                        "type_personne" : "un peu paresseuse pour autre chose que la cuisine , très souriante"
+                    },
+                    "description" : "Je suis rempli de bonne vibes , j'adore m'amuser surtout avec les membres de ma famille , écouter de la musique et danser a mes heures perdues. une personne tres ambitieuse avec de gros projet.",
+                    "correspondance" : {
+                        "sexe" : "Homme",
+                        "age" : {
+                            "min":"20",
+                            "max":"28"
+                        },
+                        "statut" : "Célibataire",
+                        "residence" : "Côte d'ivoire"
+                    }
+                },
+                {
+                    "info-principale" : {
+                        "id" : "U5",
+                        "nom" : "Gilberte",
+                        "age" : "43",
+                        "sexe" : "Femme",
+                        "statut" : "Célibataire",
+                        "genre" : "Homme",
+                        "ageMin" : "33",
+                        "ageMax" : "50"
+    
+                    },
+                    "info-secondaire" : {
+                        "profession" : "Banquière",
+                        "residence" : {
+                            "quartier":"2 plateaux",
+                            "ville":"Abidjan",
+                            "pays":"Côte d'ivoire"
+                        },
+                        "loisir" : "Plage , voyage et tourisme",
+                        "type_personne" : "Très ouverte et saine d'esprit"
+                    },
+                    "description" : "",
+                    "correspondance" : {
+                        "sexe" : "Homme",
+                        "age" : {
+                            "min":"33",
+                            "max":"50"
+                        },
+                        "statut" : "Célibataire",
+                        "residence" : "Côte d'ivoire"
+                    }
+                },
+                {
+                    "info-principale" : {
+                        "id" : "U6",
+                        "nom" : "Marie-france",
+                        "age" : "30",
+                        "sexe" : "Femme",
+                        "statut" : "Célibataire",
+                        "genre" : "Homme",
+                        "ageMin" : "28",
+                        "ageMax" : "33"
+    
+                    },
+                    "info-secondaire" : {
+                        "profession" : "Caissière",
+                        "residence" : {
+                            "quartier":"plateau",
+                            "ville":"Abidjan",
+                            "pays":"Côte d'ivoire"
+                        },
+                        "loisir" : "Coudre , manger",
+                        "type_personne" : "debrouillarde , unn peu folle"
+                    },
+                    "description" : "Je suis une personne qui ne perd pas le temps , qui fonce toujours la tête haute , très optimiste quand il s'agit de l'amour et je m'attache vite",
+                    "correspondance" : {
+                        "sexe" : "Homme",
+                        "age" : {
+                            "min":"28",
+                            "max":"33"
+                        },
+                        "statut" : "",
+                        "residence" : "Côte d'ivoire"
+                    }
+                },
+                {
+                    "info-principale" : {
+                        "id" : "U7",
+                        "nom" : "Zack",
+                        "age" : "34",
+                        "sexe" : "Homme",
+                        "statut" : "Célibataire",
+                        "genre" : "Femme",
+                        "ageMin" : "20",
+                        "ageMax" : "32"
+    
+                    },
+                    "info-secondaire" : {
+                        "profession" : "juriste",
+                        "residence" : {
+                            "quartier":"2 plateaux",
+                            "ville":"Abidjan",
+                            "pays":"Côte d'ivoire"
+                        },
+                        "loisir" : "lecture",
+                        "type_personne" : "mec sympa , attachant"
+                    },
+                    "description" : "",
+                    "correspondance" : {
+                        "sexe" : "Femme",
+                        "age" : {
+                            "min":"20",
+                            "max":"32"
+                        },
+                        "statut" : "",
+                        "residence" : ""
+                    }
+                },
+                {
+                    "info-principale" : {
+                        "id" : "U8",
+                        "nom" : "Habib",
+                        "age" : "21",
+                        "sexe" : "Homme",
+                        "statut" : "En couple",
+                        "genre" : "Femme",
+                        "ageMin" : "23",
+                        "ageMax" : "27"
+    
+                    },
+                    "info-secondaire" : {
+                        "profession" : "",
+                        "residence" : "",
+                        "loisir" : "musique rock",
+                        "type_personne" : "Loup solitaire"
+                    },
+                    "description" : "",
+                    "correspondance" : {
+                        "sexe" : "Femme",
+                        "age" : {
+                            "min":"23",
+                            "max":"27"
+                        },
+                        "statut" : "",
+                        "residence" : "Côte d'ivoire"
+                    }
+                },
+                {
+
+                    "info-principale" : {
+                        "id" : "U9",
+                        "nom" : "Anne-Marie",
+                        "age" : "22",
+                        "sexe" : "Femme",
+                        "statut" : "Célibataire",
+                        "genre" : "Homme",
+                        "ageMin" : "23",
+                        "ageMax" : "27"
+    
+                    },
+                    "info-secondaire" : {
+                        "profession" : "Restauratrice",
+                        "residence" : {
+                            "quartier":"marcory",
+                            "ville":"Abidjan",
+                            "pays":"Côte d'ivoire"
+                        },
+                        "loisir" : "Cuisine , émission télé-réalité",
+                        "type_personne" : "Très ouverte , sociable"
+                    },
+                    "description" : "Je n'accorde pas facilement ma confiance , une personne tres simple de nature qui adore les enfants et rendre service aux plus démunies",
+                    "correspondance" : {
+                        "sexe" : "Homme",
+                        "age" : {
+                            "min":"23",
+                            "max":"27"
+                        },
+                        "statut" : "Célibataire",
+                        "residence" : "Côte d'ivoire"
+                    }
+                },
+                {
+                    "info-principale" : {
+                        "id" : "U10",
+                        "nom" : "Esther",
+                        "age" : "19",
+                        "sexe" : "Femme",
+                        "statut" : "Célibataire",
+                        "genre" : "Homme",
+                        "ageMin" : "23",
+                        "ageMax" : "30"
+    
+                    },
+                    "info-secondaire" : {
+                        "profession" : "Etudiante",
+                        "residence" : {
+                            "quartier":"bingerville",
+                            "ville":"Abidjan",
+                            "pays":"Côte d'ivoire"
+                        },
+                        "loisir" : "Art-martiaux , culture , tourisme",
+                        "type_personne" : "Energetique , adorable et aimable"
+                    },
+                    "description" : "Je suis une personnne trop adorable avec qui tout est facile , s'il y'a de la communication et du respect. Avec de grande ambitions , je prends du plaisir a toujours atteindre mes objectif dans la vie.",
+                    "correspondance" : {
+                        "sexe" : "Homme",
+                        "age" : {
+                            "min":"23",
+                            "max":"30"
+                        },
+                        "statut" : "Célibataire",
+                        "residence" : "Côte d'ivoire"
+                    }
+                }
+                
+            ]
+                
+                
+            }
+            
+            
+        ]
+    }

@@ -1,0 +1,299 @@
+/* debut main-image */
+.main-image{
+    background-image: url('../../media/mainImage.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
+}
+.main-image h2{
+    padding-top: 7%;
+    margin-left: 5%;
+    color: white;
+    font-weight: bold;
+}
+.main-image span{
+    color: rgb(225, 95, 95);
+    font-weight: bold;
+}
+.main-image p{
+    color:white;
+    width: 60vw;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    font-size: 1.3rem;
+}
+.main-image .register-button{
+    background-color: brown;
+    width: 10%;
+    padding-top: .2%;
+    padding-bottom: .2%;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    font-size: 1.2rem;
+    margin-left: 5%;
+    transition: 1s;
+}
+.main-image .register-button:hover{
+    background-color: rgb(225, 95, 95);
+}
+.main-image .register-button a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+/* fin main-image */
+
+
+
+/* debut bonus */
+.bonus{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.findLove{
+    width: 27%;
+    margin: 0 auto;
+    color: black;
+    margin-top: 4%;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 0px gray;
+}
+.findLove img{
+    width: 100%;
+    height: 40vh;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.findLove h2{
+    font-weight: bold;
+    margin-left: 2%;
+    color: black;
+}
+.findLove p{
+    color: black;
+    font-size: 1.1rem;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 3% ;
+    font-weight: bold;
+}
+/* fin bonus */
+
+
+
+/* debut property */
+.h2-property{
+    width: 11%;
+    margin-left: 5%;
+    color: black;
+    font-weight: bold;
+    margin-top: 9%;
+    border-bottom: 5px solid brown;
+}
+.property{
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 50%;
+    text-align: center;
+}
+.property i{
+    font-size: 3rem;
+    color: brown;
+}
+.property h3{
+    font-size: 2.2rem;
+    color: brown;
+    font-weight: bold;
+}
+.property p{
+    color: black;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.property .free , .property .security , .property .accounts{
+    width: 35%;
+    margin: 0 auto;
+    margin-bottom: 5%;
+}
+/* fin property */
+
+
+/* espace procedure */
+.h2-procedure{
+    width: 23%;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    font-weight: bold;
+    border-bottom: 5px solid brown;
+}
+.procedure{
+    background-color: rgb(225, 95, 95);
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 5%;
+    border-radius: 5px;
+}
+.procedure .steps{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2%;
+    margin-right: 2%;
+    gap: 3%;
+}
+.procedure .steps .step{
+    width: 40%;
+    height: 20vh;
+    border-radius: 5px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 0 3%;
+    background-color: brown;
+    transition: 1s;
+}
+.procedure .steps .step:hover {
+    width: 50%;
+    height: 25vh;
+}
+.step h2 , .step p{
+    margin-top: 1%;
+    color: #fff;
+    font-weight: bold;
+}
+/* fin procedure */
+
+/* espace slide */
+.slider{
+    margin-top: 5%;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.slides{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300%;
+    height: 100%;
+    transition: all 4s ease ;
+}
+.slide{
+    width: 33.33%;
+    height: 100%;
+    float: left;
+    position: relative;
+    background-size: cover;
+    background-repeat: no repeat;
+    background-position: center center;
+}
+.slide::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.slide-data{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    color: white;
+    transform: translateY(-50%);
+    padding: 0 20%;
+}
+.slide-data h1{
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 45px;
+    margin-bottom: 3%;
+}
+.slide-data p{
+    font-size: 18px;
+    font-weight : bold ;
+}
+.slide-1{
+    background-image: url('../../media/date.jpg');
+}
+
+.slide-2{
+    background-image: url('../../media/8-couples-qui-ont-reinventer-la-vie-a-deux.jpg');
+}
+
+.slide-3{
+    background-image: url('../../media/couple.webp');
+}
+.slider .arrows{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    font-size: 60px;
+    transition: all 0.4s linear;
+}
+.slider .arrows:hover{
+    color: #000;
+    text-shadow: 0px 0px 10px #fff, 0px 0px 10px #fff;
+}
+.slider .arrows label{
+    display: none ;
+}
+.slider .arrows-left{
+    left: 3%;
+}
+.slider .arrows-right{
+    right: 3%;
+}
+.slider input:nth-child(1):checked ~ .slides{
+    left: 0;
+}
+.slider input:nth-child(2):checked ~ .slides{
+    left: -100%;
+}
+.slider input:nth-child(3):checked ~ .slides{
+    left: -200%;
+}
+
+.slider input:nth-child(1):checked ~ .arrows label:nth-child(1),
+.slider input:nth-child(2):checked ~ .arrows label:nth-child(2),
+.slider input:nth-child(3):checked ~ .arrows label:nth-child(3){
+    display: block;
+}
+
+.slider .dots{
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 15px;
+}
+
+.slider .dots label {
+    display: inline-block;
+    border-radius: 100%;
+    margin: 0 10px;
+    width: 25px;
+    height: 25px;
+    background-color: #fff;
+}
+
+.slider input:nth-child(1):checked ~ .dots label:nth-child(1),
+.slider input:nth-child(2):checked ~ .dots label:nth-child(2),
+.slider input:nth-child(3):checked ~ .dots label:nth-child(3){
+    background-color: black;
+    border: 1px solid white;
+}
+/* fin style slide */

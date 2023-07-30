@@ -1,0 +1,505 @@
+
+{
+    "utilisateurs" : [
+        {
+            "id" : 1,
+            "nom" : "konan",
+            "age" : 21,
+            "sexe" :"homme",
+            "photo" : "https://img.freepik.com/photos-gratuite/demi-image-profil-beau-jeune-homme-race-blanche-bonne-peau-yeux-bruns-cheveux-noirs-elegants-chaume-posant-isole-contre-mur-blanc-regardant-face-lui-souriant_343059-4560.jpg?w=2000",
+            "statut" : "Célibataire",
+            "genre" : "femme",
+            "ageMin" : 25,
+            "ageMax" : 33,
+            "profession" : "Professeur",
+            "residence" : "cocody,abidjan,côte d'ivoire",
+            "loisir" : "lecture , musique et voyage",
+            "type de personne" : "Dévouée , très patiente et travailleur",
+            "description" : "Je suis  une personne très croyante avec un grand sens de la famille qui aime les enfants",
+            "correspondance" : {
+                "sexe" : "Femme",
+                "age" : {
+                    "min" : "25",
+                    "max" : "33"
+                },
+                "statut" : "Célibataire",
+                "residence" : "Côte d'ivoire"
+            }
+        },
+        {
+            "id" : 2,
+            "nom" : "konate",
+            "age" : 21,
+            "sexe":"homme",
+            "photo" : "https://i.pinimg.com/736x/19/0f/69/190f69559ce051768c8778f6b6b96be0.jpg",
+            "statut" : "Célibataire",
+            "genre" : "femme",
+            "ageMin" : 20,
+            "ageMax" : 30,
+            "profession" : "mecanicien",
+            "residence" : "koumassi,abidjan,côte d'ivoire",
+            "loisir" : "sport",
+            "type de personne" : "Dévouée",
+            "description" : "",
+            "correspondance" : {
+                "sexe" : "Femme",
+                "age" : {
+                    "min" : "20",
+                    "max" : "30"
+                },
+                "statut" : "Célibataire",
+                "residence" : "Côte d'ivoire"
+            }
+        },
+        {
+            "id" : 3,
+            "nom" : "Maire-frnace",
+            "age" : 21,
+            "sexe":"Femme",
+            "photo": "https://wp.fr.aleteia.org/wp-content/uploads/sites/6/2022/04/shutterstock_1878050431.jpg?w=720",
+            "statut" : "Célibataire",
+            "genre" : "femme",
+            "ageMin" : 26,
+            "ageMax" : 40,
+            "profession" : "pâtissière",
+            "residence" : "angré,abidjan,côte d'ivoire",
+            "loisir" : "patisserie, musique et voyage",
+            "type de personne" : "gentille et super agreable au contact",
+            "description" : "Une personne avec unn grand coeur qui croit en l'amour",
+            "correspondance" : {
+                "sexe" : "homme",
+                "age" : {
+                    "min" : "26",
+                    "max" : "40"
+                },
+                "statut" : "Célibataire",
+                "residence" : "Côte d'ivoire"
+            }
+        },
+        {
+            "id" : 4,
+            "nom" : "Sara Elvira",
+            "age" : 19,
+            "sexe":"Femme",
+            "photo":"https://img.freepik.com/photos-premium/beaute-femme-peau-noire-visage-souriant-visage-modele-haut-noir-fond-noir_431835-7611.jpg",
+            "statut" : "celibataire",
+            "genre" : "homme",
+            "ageMin" : 20,
+            "ageMax" : 25,
+            "profession" : "etudiante",
+            "residence" : "cocody,abidjan,côte d'ivoire",
+            "loisir" : "shopping , musique et voyage",
+            "type de personne" : "une personne qui adore faire la fête",
+            "description" : "bourré d'énergie , je suis une personne qui adore sympathisé et gentille",
+            "correspondance" : {
+                "sexe" : "homme",
+                "age" : {
+                    "min" : "20",
+                    "max" : "25"
+                },
+                "statut" : "Célibataire",
+                "residence" : "Côte d'ivoire"
+            }
+        },
+        {
+            "id" : 5,
+            "nom" : "Fabrice",
+            "age" : 21,
+            "sexe":"homme",
+            "photo": "https://laviedesreines.com/wp-content/uploads/2021/12/Voici-les-18-Caracteristiques-dun-homme-beau-selon-les-femmes-scaled.jpg",
+            "statut" : "Célibataire",
+            "genre" : "femme",
+            "ageMin" : 25,
+            "ageMax" : 33,
+            "profession" : "maitre nageur",
+            "residence" : "cocody,abidjan,côte d'ivoire",
+            "loisir" : "sport , culture et plage",
+            "type de personne" : "honnête et très responsable",
+            "description" : "je suis une personne tres simple qui vit selon ses envi , en quete de liberté",
+            "correspondance" : {
+                "sexe" : "Femme",
+                "age" : {
+                    "min" : "25",
+                    "max" : "33"
+                },
+                "statut" : "Célibataire",
+                "residence" : "Côte d'ivoire"
+            }
+        },
+        {
+            "id" : 6,
+            "nom" : "Mathurin",
+            "age" : 30,
+            "sexe":"homme",
+            "photo": "https://img.freepik.com/photos-gratuite/portrait-beau-male-barbu_23-2148563532.jpg",
+            "statut" : "en couple",
+            "genre" : "femme",
+            "ageMin" : 25,
+            "ageMax" : 30,
+            "profession" : "banquier",
+            "residence" : "riviera , abidjan , côte d'ivoire",
+            "loisir" : "culture et voyage",
+            "type de personne" : "conquerant",
+            "description" : "",
+            "correspondance" : {
+                "sexe" : "Femme",
+                "age" : {
+                    "min" : "25",
+                    "max" : "30"
+                },
+                "statut" : "",
+                "residence" : "Côte d'ivoire"
+            }
+        },
+        {
+            "id" : 7,
+            "nom" : "Laura",
+            "age" : 21,
+            "sexe":"Femme",
+            "photo" :"https://i.pinimg.com/236x/0d/cd/19/0dcd1985365c98555eb25bf6a20aed4f.jpg",
+            "statut" : "Célibataire",
+            "genre" : "homme",
+            "ageMin" : 25,
+            "ageMax" : 30,
+            "profession" : "caissière",
+            "residence" : "rue Gare du nord,paris,France",
+            "loisir" : "voyage  , coudre",
+            "type de personne" : "joviale , tres ouvert et sociable",
+            "description" : "j'adore partagerla bonne humeur autour de moi , j'aime beaucoup les enfant",
+            "correspondance" : {
+                "sexe" : "homme",
+                "age" : {
+                    "min" : "25",
+                    "max" : "30"
+                },
+                "statut" : "Célibataire",
+                "residence" : ""
+            }
+        },
+        {
+            "id" : 8,
+            "nom" : "Yves",
+            "age" : 20,
+            "sexe":"homme",
+            "photo":"https://us.123rf.com/450wm/mimagephotography/mimagephotography1705/mimagephotography170500189/77791746-gros-plan-c%C3%B4t%C3%A9-portrait-de-beau-jeune-homme-noir-s-appuyant-sur-le-mur-%C3%A0-l-ext%C3%A9rieur.jpg",
+            "statut" : "Célibataire",
+            "genre" : "femme",
+            "ageMin" : 19,
+            "ageMax" : 23,
+            "profession" : "etudiant",
+            "residence" : "marcory,abidjan,côte d'ivoire",
+            "loisir" : "gaming , manga et culture japonaise",
+            "type de personne" : "très ouverte d'esprit",
+            "description" : "j'aime l'univers des mangas et de la technologie , j'aime braucoup lire et aller en salle de jeu",
+            "correspondance" : {
+                "sexe" : "Femme",
+                "age" : {
+                    "min" : "19",
+                    "max" : "23"
+                },
+                "statut" : "Célibataire",
+                "residence" : "Côte d'ivoire"
+            }
+        },
+        {
+            "id" : 9,
+            "nom" : "Katrine",
+            "age" : 26,
+            "sexe":"Femme",
+            "photo":"https://images.asos-media.com/products/nike-essentials-sweat-ras-de-cou-noir/11690239-1-blackwhite?$n_640w$&wid=513&fit=constrain",
+            "statut" : "Célibataire",
+            "genre" : "homme",
+            "ageMin" : 22,
+            "ageMax" : 35,
+            "profession" : "juriste",
+            "residence" : "bietry,abidjan,côte d'ivoire",
+            "loisir" : "roman , plage",
+            "type de personne" : "calme , energetique",
+            "description" : "j'adore le travail bien fait ,je rêve d'une belle et grande famille. je suis une personne assez renfermé qui aime prendre son temps",
+            "correspondance" : {
+                "sexe" : "homme",
+                "age" : {
+                    "min" : "22",
+                    "max" : "35"
+                },
+                "statut" : "Célibataire",
+                "residence" : "Côte d'ivoire"
+            }
+        },
+        {
+            "id" : 10,
+            "nom" : "Daryl",
+            "age" : 22,
+            "sexe":"homme",
+            "photo": "https://i.pinimg.com/736x/3e/c4/89/3ec489475690a42402e1a1d5a630c1d7.jpg",
+            "statut" : "Célibataire",
+            "genre" : "femme",
+            "ageMin" : 25,
+            "ageMax" : 33,
+            "profession" : "developeur",
+            "residence" : "Zone4,abidjan,côte d'ivoire",
+            "loisir" : "technologie , code  , manga et gaming",
+            "type de personne" : "travailleur , rigoureux",
+            "description" : "pationné de technologie, j'adore les blague et fou-rire entre pote ou partenaire",
+            "correspondance" : {
+                "sexe" : "Femme",
+                "age" : {
+                    "min" : "25",
+                    "max" : "33"
+                },
+                "statut" : "Célibataire",
+                "residence" : "Côte d'ivoire"
+            }
+        },
+        {
+            "id" : 11,
+            "nom" : "Alexia",
+            "age" : 22,
+            "sexe":"femme",
+            "photo":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2gmwxAc0EHPCmrGb8SchpbSfdzo6UD_tHEQ&usqp=CAU",
+            "statut" : "Célibataire",
+            "genre" : "homme",
+            "ageMin" : 22,
+            "ageMax" : 25,
+            "profession" : "coiffeuse",
+            "residence" : "Zone4,abidjan,côte d'ivoire",
+            "loisir" : "couture , shopping",
+            "type de personne" : "fragile et trés docile",
+            "description" : "j'aime qu'on s'occupe de moi, je suis une une personne qui aime profiter de sa liberté et se divertire",
+            "correspondance" : {
+                "sexe" : "homme",
+                "age" : {
+                    "min" : "22",
+                    "max" : "25"
+                },
+                "statut" : "Célibataire",
+                "residence" : "Côte d'ivoire"
+            }
+        },
+        {
+            "id" : 12,
+            "nom" : "Kevin",
+            "age" : 23,
+            "sexe":"homme",
+            "photo":"https://www.barbededarwin.fr/wp-content/uploads/2021/06/afro-noir-scaled-e1633588731738.jpg",
+            "statut" : "Célibataire",
+            "genre" : "femme",
+            "ageMin" : 25,
+            "ageMax" : 33,
+            "profession" : "",
+            "residence" : "port-bouet,abidjan,côte d'ivoire",
+            "loisir" : "",
+            "type de personne" : "travailleur , rigoureux",
+            "description" : "",
+            "correspondance" : {
+                "sexe" : "Femme",
+                "age" : {
+                    "min" : "25",
+                    "max" : "33"
+                },
+                "statut" : "",
+                "residence" : "Côte d'ivoire"
+            }
+        },
+        {
+            "id" : 13,
+            "nom" : "Brenda",
+            "age" : 21,
+            "sexe":"femme",
+            "photo":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeevY2c3rO_RuLB46Hn1XuWkTYDrG2azlSJw&usqp=CAU",
+            "statut" : "Célibataire",
+            "genre" : "homme",
+            "ageMin" : 23,
+            "ageMax" : 30,
+            "profession" : "developeur",
+            "residence" : "bingerville,abidjan,côte d'ivoire",
+            "loisir" : "technologie et gaming",
+            "type de personne" : "travailleur , rigoureux",
+            "description" : "pationné de technologie, j'adore les jeux video",
+            "correspondance" : {
+                "sexe" : "homme",
+                "age" : {
+                    "min" : "23",
+                    "max" : "30"
+                },
+                "statut" : "Célibataire",
+                "residence" : "Côte d'ivoire"
+            }
+        },
+        {
+            "id" : 14,
+            "nom" : "Cedric",
+            "age" : 22,
+            "sexe":"homme",
+            "photo":"https://cdn.pixabay.com/photo/2019/12/16/14/46/black-man-4699505_1280.jpg",
+            "statut" : "Célibataire",
+            "genre" : "femme",
+            "ageMin" : 25,
+            "ageMax" : 33,
+            "profession" : "journaliste",
+            "residence" : "koumassi,abidjan,côte d'ivoire",
+            "loisir" : "reportage , television",
+            "type de personne" : "travailleur",
+            "description" : "",
+            "correspondance" : {
+                "sexe" : "Femme",
+                "age" : {
+                    "min" : "25",
+                    "max" : "33"
+                },
+                "statut" : "Célibataire",
+                "residence" : "Côte d'ivoire"
+            }
+        },
+        {
+            "id" : 15,
+            "nom" : "Maeva",
+            "age" : 22,
+            "sexe":"femme",
+            "photo":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeevY2c3rO_RuLB46Hn1XuWkTYDrG2azlSJw&usqp=CAU",
+            "statut" : "en couple",
+            "genre" : "homme",
+            "ageMin" : 30,
+            "ageMax" : 45,
+            "profession" : "animatrice",
+            "residence" : "vridi,abidjan,côte d'ivoire",
+            "loisir" : "spectacle , animation et evenement",
+            "type de personne" : "tres joviale",
+            "description" : "j'aime tout le monde  , tres attentionné et  rempli de bonne humeur",
+            "correspondance" : {
+                "sexe" : "homme",
+                "age" : {
+                    "min" : "30",
+                    "max" : "45"
+                },
+                "statut" : "Célibataire",
+                "residence" : "Côte d'ivoire"
+            }
+        },
+        {
+            "id" : 16,
+            "nom" : "othniel",
+            "age" : 24,
+            "sexe":"homme",
+            "photo" : "https://i.pinimg.com/1200x/c3/65/b8/c365b8a560418cf02dda44994d809d60.jpg",
+            "statut" : "Célibataire",
+            "genre" : "femme",
+            "ageMin" : 18,
+            "ageMax" : 20,
+            "profession" : "",
+            "residence" : "port-bouet,abidjan,côte d'ivoire",
+            "loisir" : "",
+            "type de personne" : "",
+            "description" : "",
+            "correspondance" : {
+                "sexe" : "Femme",
+                "age" : {
+                    "min" : "18",
+                    "max" : "20"
+                },
+                "statut" : "",
+                "residence" : "Côte d'ivoire"
+            }
+        },
+        {
+            "id" : 17,
+            "nom" : "Olivia",
+            "age" : 19,
+            "sexe":"femme",
+            "photo":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXaFXCTcd3zVzlpvwXpZljKsL0rtdtdne6DA&usqp=CAU",
+            "statut" : "Célibataire",
+            "genre" : "homme",
+            "ageMin" : 19,
+            "ageMax" : 23,
+            "profession" : "e-commercante",
+            "residence" : "bassam,côte d'ivoire",
+            "loisir" : "shopping ",
+            "type de personne" : "romantique et à fleur de peau",
+            "description" : "j'adore prendre soin de moi et des  autres , j'adore les enfants et je suis une personne pas compliqué qui n'en demande pas assez",
+            "correspondance" : {
+                "sexe" : "homme",
+                "age" : {
+                    "min" : "19",
+                    "max" : "23"
+                },
+                "statut" : "Célibataire",
+                "residence" : "Côte d'ivoire"
+            }
+        },
+        {
+            "id" : 18,
+            "nom" : "Esther",
+            "age" : 22,
+            "sexe":"femme",
+            "photo":"https://www.blackandbeauties.com/blog/wp-content/uploads/2018/04/ssqdqd.jpeg",
+            "statut" : "Célibataire",
+            "genre" : "homme",
+            "ageMin" : 20,
+            "ageMax" : 33,
+            "profession" : "infirmière",
+            "residence" : "treichVille,abidjan,côte d'ivoire",
+            "loisir" : "plage et sport",
+            "type de personne" : "très attentionnée",
+            "description" : "facile au contact , tres  sociable et qui adore prendre soin des autres",
+            "correspondance" : {
+                "sexe" : "homme",
+                "age" : {
+                    "min" : "20",
+                    "max" : "33"
+                },
+                "statut" : "Célibataire",
+                "residence" : "Côte d'ivoire"
+            }
+        },
+        {
+            "id" : 19,
+            "nom" : "Audrey",
+            "age" : 20,
+            "sexe":"femme",
+            "photo":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMPGMa9WFA7o5obXy5JuwdD9TsrO5tFka_4Q&usqp=CAU",
+            "statut" : "Célibataire",
+            "genre" : "homme",
+            "ageMin" : 24,
+            "ageMax" : 30,
+            "profession" : "serveuse",
+            "residence" : "marcory,abidjan,côte d'ivoire",
+            "loisir" : "musique , danse ",
+            "type de personne" : "j'adore faire la fête",
+            "description" : "j'adore aller en boite et faire la fete avec les amis , tres respectueuse et croyante",
+            "correspondance" : {
+                "sexe" : "homme",
+                "age" : {
+                    "min" : "24",
+                    "max" : "30"
+                },
+                "statut" : "Célibataire",
+                "residence" : "Côte d'ivoire"
+            }
+        },
+        {
+            "id" : 20,
+            "nom" : "Karim",
+            "age" : 22,
+            "sexe":"homme",
+            "photo":"https://figurants.com/oc-content/uploads/128/12925.jpg",
+            "statut" : "Célibataire",
+            "genre" : "femme",
+            "ageMin" : 20,
+            "ageMax" : 33,
+            "profession" : "musicien",
+            "residence" : "Zone4,abidjan,côte d'ivoire",
+            "loisir" : "musique et scène de théâtre",
+            "type de personne" : "doux et precis",
+            "description" : "",
+            "correspondance" : {
+                "sexe" : "Femme",
+                "age" : {
+                    "min" : "20",
+                    "max" : "33"
+                },
+                "statut" : "",
+                "residence" : "Côte d'ivoire"
+            }
+        }
+    ]
+}

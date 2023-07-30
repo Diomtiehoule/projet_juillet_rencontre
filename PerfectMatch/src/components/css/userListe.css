@@ -1,0 +1,61 @@
+.body-Rencontre{
+    background-color: rgb(225, 95, 95);
+}
+.userList h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 98%;
+    text-align: center;
+    border: 1px solid black;
+    margin-bottom: 3%;
+    margin-top: 5%;
+    background-color: white;
+}
+.info-user{
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-radius: 15px;
+    padding-left: 2%;
+    padding-top: 2%;
+    padding-bottom: 2% ;
+    padding-right: 5%;
+    margin: 0 auto;
+    margin-bottom: 1.5% ;
+    height: auto;
+    background-color: white;
+}
+.info-user .first-part{
+    display: flex;
+    flex-wrap: wrap;
+}
+.info-user .info-photo-user{
+    width: 150px;
+    height: 150px;
+    margin-right: 1.5% ;
+    border-radius: 10px;
+    background-color: black;
+}
+.info-user .info-photo-user img{
+    width: 150px;
+    height: 150px;
+    margin-right: 1.5% ;
+    border-radius: 10px;
+    background-color: black;
+}
+
+.info-user .first-part .info-principale-user{
+    padding-top: 2%;
+}
+
+.info-user .icon-userList i{
+    font-size: 1.5rem;
+    float: right;
+    margin-top: 15.5rem;
+}
+.info-user .icon-userList i:hover{
+    color: red;
+}

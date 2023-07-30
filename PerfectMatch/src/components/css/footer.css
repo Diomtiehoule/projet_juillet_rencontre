@@ -1,0 +1,93 @@
+.footer{
+    /* background-image: url('../../media/8-couples-qui-ont-reinventer-la-vie-a-deux.jpg'); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: rgba(0, 0, 0, 0.2);
+    width: 100%;
+    height: auto;
+}
+.info-footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    margin-left: 7%;
+    margin-right: 3%;
+    padding-top: 3%;
+}
+.footer .info-footer h1{
+    margin-top: 3%;
+}
+.footer h1 span{
+    color: rgb(225, 95, 95);
+}
+.footer p{
+    color: black;
+}
+.footer h2{
+    color: brown;
+    font-weight: bold;
+}
+.footer ul li{
+    color:black;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.info-footer .reseaux-footer ul{
+    display: flex;
+    gap: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info-footer .reseaux-footer ul li{
+    font-size: 1.5rem;
+}
+.reseaux-footer .fa-brands.fa-square-facebook , .reseaux-footer .fa-brands.fa-twitter{
+    color: blue;
+}
+.reseaux-footer .fa-brands.fa-instagram{
+    color: black;
+}
+.footer .copyright{
+    border-top: 1px solid black;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: .1%;
+} 
+.footer .newsLetter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 3%;
+    margin-bottom: 2%;
+}
+.newsLetter input{
+    border-radius: 3px;
+    border: none;
+    height: 5vh;
+    margin-right: 15px;
+    border: .5px solid black;
+}
+.newsLetter button{
+    background-color: brown;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    height: 5vh;
+}
+.newsLetter label{
+    font-size: 1.2rem;
+}
+
+@media screen and (max-width : 971px) {
+    .info-footer{
+        display: inline;
+    }
+    .info-footer .apropos-footer , .info-footer .procede-footer , .info-footer .contact-footer{
+        margin-bottom: 5%;
+    }    
+}

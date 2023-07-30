@@ -1,0 +1,37 @@
+
+.navbarHome{
+    height: 50px;
+    width: 100%;
+    background-color: brown;
+}
+.navbarHome a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+.navHome{
+    margin-left: 1%;
+    margin-right: 3%;
+    display: flex;
+    justify-content: space-between;
+}
+.navHome h1{
+    color: rgb(255, 95, 95);
+}
+.navHome ul {
+    padding-top: 1%;
+    display: flex;
+    gap : 25px;
+    font-size: 1.2rem;
+    color: white;
+}
+.navHome ul li{
+    border: 1px solid white;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 5px;
+    transition: 1s;
+}
+.navHome span{
+    color: white;
+}
