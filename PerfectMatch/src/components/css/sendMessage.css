@@ -11,15 +11,22 @@
     font-size: 1.2rem;
     color: white;
     display: none;
+    position: relative;
+    bottom: -70%;
 }
 .body-message{
     height: 90vh;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 .body-message input{
     width: 100%;
     margin-right: 1%;
     margin-left: 1%;
+}
+.send{
+    
+    position: relative;
+    bottom: -70%;
 }
 .send form{
     display: flex;

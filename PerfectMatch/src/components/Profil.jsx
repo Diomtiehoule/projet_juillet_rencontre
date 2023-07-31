@@ -1,6 +1,7 @@
 import React ,{useState , useEffect}from 'react';
 import '../components/css/profil.css'
 import NavbarUser from './navbarUser';
+import photo from '../media/client2.jpg'
 import { Link , useParams } from 'react-router-dom';
 import { getDocs , userCollection , db , doc , deleteDoc} from '../DB/firebaseConfig';
 import Footer from './Footer';
@@ -45,7 +46,7 @@ function Profil() {
         < NavbarUser />
             <div className="user-profil-photo">
                 <div className="photo-user">
-
+                  <img src= {photo} alt=""  className="photo-user"/>
                 </div>
                 <p>Identifiant : {userInfo.identifiant}</p>
             </div>
