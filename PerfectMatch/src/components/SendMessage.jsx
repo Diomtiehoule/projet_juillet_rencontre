@@ -59,7 +59,7 @@ function SendMessage(props) {
             <form onSubmit={handleSendMessage}>
                 <input type="text" value={msg} onChange={(e)=>{setMsg(e.target.value)}} placeholder='message...'/>
                 <button type='submit'>Envoyer</button>
-            </form>
+            </form> 
             </div>
             
         </div>

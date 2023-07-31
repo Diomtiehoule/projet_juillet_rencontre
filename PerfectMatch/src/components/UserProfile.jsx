@@ -87,7 +87,7 @@ function UserProfile() {
 
                         <div className="loisir-user">
                             <h4>Loisir :</h4>
-                            <p>sport , musique  et voyage</p>
+                            <p>{userInfo.loisir}</p>
                         </div>
 
                         <div className="type-personne">
@@ -100,7 +100,7 @@ function UserProfile() {
 
                 <div className="description-user">
                     <h2>A propos de vous</h2>
-                    <p>{userInfo.description}</p>
+                    <p className='descriptionPart'>{userInfo.description}</p>
                 </div>
 
                 <div className="correspondance_user">
@@ -117,12 +117,12 @@ function UserProfile() {
 
                     <div className="Statut-correspondance">
                         <h4>Statut :</h4>
-                        <p>{userInfo.statutCorrespondance}</p>
+                        <p>{userInfo.statut}</p>
                     </div>
 
                     <div className="adresse-correspondance">
                         <h4>Adresse : </h4>
-                        <p>{userInfo.paysCorrespondance}</p>
+                        <p>{userInfo.adresse}</p>
                     </div>
                 </div>
             </div>

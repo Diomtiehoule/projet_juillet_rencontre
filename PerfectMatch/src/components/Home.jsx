@@ -5,7 +5,7 @@ import { getDocs ,auth , doc , userCollection } from '../DB/firebaseConfig';
 import NavbarHome from './navbarHome';
 import photo from '../media/mainImage.jpg'
 import photo1 from '../media/sms-love.png'
-import photo2 from '../media/texto.jpg'
+import photo2 from '../media/routine.jpeg'
 import photo3 from '../media/couple1.jpeg'
 import Footer from './Footer';
 
@@ -111,11 +111,11 @@ function Home() {
           </div>
 
           <div className="findLove">
-            <img src={photo3} alt="" />
+            <img src={photo2} alt="" />
             <div className="textPhoto1">
-              <h2>Trouver la bonne personne</h2>
+              <h2>Sortez de la routine </h2>
               <p>
-              Trouver celui dont les defauts et les qualité vous font vous sentir spéciale.</p>
+              Sortez de votre  routine solitaire et partagez des moment inoubliable avecvotre partenaire.</p>
             </div>
 
           </div>

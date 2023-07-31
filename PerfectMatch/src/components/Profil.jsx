@@ -47,7 +47,7 @@ function Profil() {
                 <div className="photo-user">
 
                 </div>
-                <p>Identifiant : {userInfo.prenom}</p>
+                <p>Identifiant : {userInfo.identifiant}</p>
             </div>
 
             <div className="option-profilUser">
@@ -66,10 +66,10 @@ function Profil() {
                     <div className="border-option"></div>
                     <li><Link to={`/userProfile/${id}`}>Profile <i class="fa-solid fa-chevron-right"></i></Link></li>
                     <div className="border-option"></div>
-                    <li><a href="">Déconnexion <i class="fa-solid fa-chevron-right"></i></a>
+                    <li><Link to={'/'}>Déconnexion <i class="fa-solid fa-chevron-right"></i></Link>
                     </li>
                     <div className="border-option"></div>
-                    <li><Link to={``}  className='delete-account' onClick={deleteAccount}>Supprimer mon compte <i class="fa-solid fa-chevron-right"></i></Link>
+                    <li><Link to={`/`}  className='delete-account' onClick={deleteAccount}>Supprimer mon compte <i class="fa-solid fa-chevron-right"></i></Link>
                     </li>
                     <div className="border-option"></div>
                 </ul>

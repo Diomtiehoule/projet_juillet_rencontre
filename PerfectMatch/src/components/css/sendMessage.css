@@ -1,4 +1,5 @@
 .boite{
+    margin-top: 2%;
     width: 20%;
     height: 5vh;
     border-radius: 10px;
@@ -16,11 +17,10 @@
     border: 1px solid black;
 }
 .body-message input{
-    width: 91%;
+    width: 100%;
     margin-right: 1%;
     margin-left: 1%;
 }
-.send{
+.send form{
     display: flex;
-    justify-content: space-between;
 }

@@ -51,7 +51,7 @@ function Register() {
     }
 
     const userData = async() =>{
-        addDoc(userCollection , {nom : Name , prenom : Prenom , sexe : Sexe , email: Mail , password : passWord , identifiant : Matricule , age : 0 , profession : "" , genre : "" , description : "" , ageMin : "" , ageMax : "" , pays : "" , ville : "" , quartier : ""  , statut : ""});
+        addDoc(userCollection , {nom : Name , prenom : Prenom , sexe : Sexe , email: Mail , password : passWord , identifiant : Matricule , age : 0 , profession : "" , genre : "" , description : "" , ageMin : "" , ageMax : "" , pays : "" , ville : "" , quartier : ""  , statut : "" ,loisir : ''});
 
         console.log(addDoc)
     }
