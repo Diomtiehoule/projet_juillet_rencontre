@@ -1,8 +1,9 @@
 import React , { useState , useEffect }from 'react';
 import { userCollection , db , doc , getDocs } from '../DB/firebaseConfig';
-import { onSnapshot } from 'firebase/firestore';
 import SendMessage from './SendMessage';
 import { useParams } from 'react-router-dom';
+import Footer from './Footer';
+import NavbarUser from './navbarUser';
 
 function Message(props) {
 
@@ -39,12 +40,13 @@ function Message(props) {
     const [ message , setMessage ] = useState([])
 
     // useEffect(()=>{
-    //     userCollection.orderBy('createAt').limit(50).onSnapshot(snapshot=>{
+    //     db.collection('users').orderBy('createAt').limit(50).onSnapshot(snapshot=>{
     //         setMessage(snapshot.doc.map (doc => doc.data()))
     //     })
     // })
     return (
         <div>
+          < NavbarUser />
             chat
             {message.map((id , text , photoURL)=>{
                 <div key={id}>
@@ -54,6 +56,8 @@ function Message(props) {
             })}
 
             < SendMessage />
+
+            < Footer />
         </div>
     );
 }

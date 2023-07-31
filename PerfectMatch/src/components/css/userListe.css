@@ -1,5 +1,6 @@
 .body-Rencontre{
     background-color: rgb(225, 95, 95);
+    padding-bottom: 3%;
 }
 .userList h2{
     display: flex;
@@ -30,7 +31,6 @@
 }
 .info-user .first-part{
     display: flex;
-    flex-wrap: wrap;
 }
 .info-user .info-photo-user{
     width: 150px;
@@ -49,12 +49,21 @@
 
 .info-user .first-part .info-principale-user{
     padding-top: 2%;
+    padding-left: 2%;
 }
 
+.info-user .icon-userList{
+    display: flex;
+}
 .info-user .icon-userList i{
     font-size: 1.5rem;
     float: right;
-    margin-top: 15.5rem;
+    margin-top: 8rem;
+}
+.info-user .icon-userList .message{
+    font-size: 1.1rem;
+    float: right;
+    margin-top: 8rem;
 }
 .info-user .icon-userList i:hover{
     color: red;

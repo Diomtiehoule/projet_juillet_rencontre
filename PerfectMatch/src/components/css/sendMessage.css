@@ -1,0 +1,26 @@
+.boite{
+    width: 20%;
+    height: 5vh;
+    border-radius: 10px;
+    margin-left: .9%;
+    margin-bottom: 1%;
+    background-color: brown;
+    padding-left: 2%;
+    padding-top: .2%;
+    font-size: 1.2rem;
+    color: white;
+    display: none;
+}
+.body-message{
+    height: 90vh;
+    border: 1px solid black;
+}
+.body-message input{
+    width: 91%;
+    margin-right: 1%;
+    margin-left: 1%;
+}
+.send{
+    display: flex;
+    justify-content: space-between;
+}

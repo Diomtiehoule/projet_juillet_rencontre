@@ -2,6 +2,7 @@ import React, { useState , useEffect } from 'react';
 import '../components/css/assistance.css'
 import NavbarUser from './navbarUser';
 import { useParams } from 'react-router-dom';
+import Footer from './Footer';
 
 function Assistance() {
 
@@ -101,6 +102,7 @@ function Assistance() {
                     Contactez-nous
                 </button>
             </div>
+            < Footer />
         </div>
     );
 }

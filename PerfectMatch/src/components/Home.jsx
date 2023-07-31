@@ -7,6 +7,7 @@ import photo from '../media/mainImage.jpg'
 import photo1 from '../media/sms-love.png'
 import photo2 from '../media/texto.jpg'
 import photo3 from '../media/couple1.jpeg'
+import Footer from './Footer';
 
 function Home() {
 
@@ -223,6 +224,8 @@ Faite comme eux , inscrivez-vous et trouvez votre âme-soeur.
               <label htmlFor="slide-3"></label>
             </div>
           </div>
+
+          < Footer />
         </div>
     );
 }

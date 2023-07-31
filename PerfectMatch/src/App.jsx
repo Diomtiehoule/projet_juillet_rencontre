@@ -13,6 +13,7 @@ import Rencontre from './components/Rencontre'
 import InfoUser from './components/InfoUser'
 import Photo from './components/Photo';
 import Footer from './components/Footer';
+import Galerie from './components/Galerie';
 
 function App() {
   return ( 
@@ -31,9 +32,10 @@ function App() {
            < Route path='/login' element={<Login />} />
            < Route path='/register' element={<Register />} />
            < Route path='/photo/:id' element={<Photo />} />
+           < Route path='/galerie/:id' element={<Galerie />} />
         </Routes>
     </BrowserRouter>
-    < InfoUser />
+    {/* < Galerie /> */}
     {/* < Rencontre /> */}
     {/* < NavbarUser /> */}
     {/* < NavbarHome /> */}

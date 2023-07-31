@@ -1,6 +1,7 @@
 import React , {useState , useEffect}from 'react';
 import { createUserWithEmailAndPassword , auth, addDoc, userCollection , getDocs , doc} from '../DB/firebaseConfig';
 import { useParams } from 'react-router-dom';
+import '../components/css/sendMessage.css'
 
 function SendMessage(props) {
 
@@ -34,25 +35,33 @@ function SendMessage(props) {
     //   fin de la funntion pour recuperer
 
     const [ msg , setMsg ] = useState('')
-
+    const [messages , setMessage ] = useState([])
     async function handleSendMessage(e){
         e.preventDefault()
+        const recep = document.querySelector('.boite');
 
-        const  { uid , photoURL} = auth.currentUser
-        await userCollection.addDoc({
-            text : msg,
-            photoURL,
-            uid,
-            createAt : Firebase.firestore.FieldValue.serverTimestamps()
-        })
+        if(msg === ''){
+          return null
+        }else {
+          recep.innerHTML = msg;
+          recep.style.display='block'
+        }
+        
         setMsg('')
     }
     return (
-        <div>
+        <div className='body-message'>
+          
+             <div className="boite"></div>
+          
+          
+            <div className="send">
             <form onSubmit={handleSendMessage}>
                 <input type="text" value={msg} onChange={(e)=>{setMsg(e.target.value)}} placeholder='message...'/>
                 <button type='submit'>Envoyer</button>
             </form>
+            </div>
+            
         </div>
     );
 }

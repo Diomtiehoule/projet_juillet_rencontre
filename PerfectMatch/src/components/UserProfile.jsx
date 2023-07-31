@@ -4,6 +4,7 @@ import NavbarUser from './navbarUser';
 import photo from '../media/client2.jpg'
 import { useParams } from 'react-router-dom';
 import { getDocs , userCollection , db , doc} from '../DB/firebaseConfig';
+import Footer from './Footer';
 
 function UserProfile() {
 
@@ -125,6 +126,8 @@ function UserProfile() {
                     </div>
                 </div>
             </div>
+
+            < Footer />
         </div>
     );
 }

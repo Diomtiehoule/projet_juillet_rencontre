@@ -2,7 +2,8 @@ import React ,{useState , useEffect}from 'react';
 import '../components/css/profil.css'
 import NavbarUser from './navbarUser';
 import { Link , useParams } from 'react-router-dom';
-import { getDocs , userCollection , db , doc} from '../DB/firebaseConfig';
+import { getDocs , userCollection , db , doc , deleteDoc} from '../DB/firebaseConfig';
+import Footer from './Footer';
 
 function Profil() {
 
@@ -34,6 +35,11 @@ function Profil() {
  
        console.log(userInfo)
     //    fin de la function pour recuperer  les info de l'utilsateur
+
+    async function deleteAccount(){
+      await deleteDoc(userCollection , id)
+      console.log("supprimer");
+    }
     return (
         <>
         < NavbarUser />
@@ -56,19 +62,20 @@ function Profil() {
 
             <div className="optionUser">
                 <ul>
-                    <li><a href="">Photo <i class="fa-solid fa-chevron-right"></i></a></li>
+                    <li><Link to={`/galerie/${id}`}>Photo <i class="fa-solid fa-chevron-right"></i></Link></li>
                     <div className="border-option"></div>
                     <li><Link to={`/userProfile/${id}`}>Profile <i class="fa-solid fa-chevron-right"></i></Link></li>
                     <div className="border-option"></div>
                     <li><a href="">Déconnexion <i class="fa-solid fa-chevron-right"></i></a>
                     </li>
                     <div className="border-option"></div>
-                    <li><a href=""  className='delete-account'>Supprimer mon compte <i class="fa-solid fa-chevron-right"></i></a>
+                    <li><Link to={``}  className='delete-account' onClick={deleteAccount}>Supprimer mon compte <i class="fa-solid fa-chevron-right"></i></Link>
                     </li>
                     <div className="border-option"></div>
                 </ul>
             </div>
             
+            < Footer />
         </>
     );
 }

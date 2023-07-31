@@ -3,6 +3,7 @@ import { useParams , Link } from 'react-router-dom';
 import { getDocs , userCollection , db , doc} from '../DB/firebaseConfig';
 import NavbarUser from './navbarUser';
 import UserList from './UserList';
+import Footer from './Footer';
 
 function Rencontre() {
 
@@ -55,6 +56,8 @@ function Rencontre() {
             <NavbarUser /> 
             {utilisateurs && < UserList  utilisateurs = { utilisateurs } title={'Rencontrer des gens'} />} 
         </div>
+
+        < Footer />
       </>
        
     );

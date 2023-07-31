@@ -44,6 +44,7 @@ function UserList({utilisateurs , title}) {
     // }
     function handlPhotoClick(userId){
       console.log('id utlisateur :', userId)
+      navigate(`/infoUser/${id}/${userId}`)
     }
    
     return (
@@ -59,6 +60,7 @@ function UserList({utilisateurs , title}) {
                        <img src={blog.photo} alt=""
                         />
                      </div>
+
                         <div className="info-principale-user">
                         <p><i className="fa-solid fa-user"></i> {blog.nom} , {blog.age}</p>
                         <p><i className="fa-solid fa-person"></i> {blog.sexe} / {blog.statut}</p>
@@ -68,7 +70,15 @@ function UserList({utilisateurs , title}) {
                         
 
               <div className="icon-userList">
-              <i className="fa fa-thin fa-heart"></i>
+              {/* <i className="fa fa-thin fa-heart">
+                
+              </i> */}
+
+              <div className="message">
+                  <Link to={`/message/${id}`}>
+                  <p>envoyer un message </p>
+                  </Link>
+                </div>
 
                         
 

@@ -2,6 +2,7 @@ import React , {useState , useEffect }from 'react';
 import { useParams } from 'react-router-dom';
 import { getDocs , userCollection , db , doc  } from '../DB/firebaseConfig';
 import UserList from './UserList';
+import Footer from './Footer';
 
 function InfoUser(item) {
 
@@ -38,6 +39,8 @@ function InfoUser(item) {
         <div>
           <p>bonjour</p>
             
+
+            < Footer />
         </div>
     );
 }
